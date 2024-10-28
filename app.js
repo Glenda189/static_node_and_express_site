@@ -2,20 +2,19 @@ const express = require('express');
 const data = require('./data.json');
 const app = express();
 const port = 3000;
-const path = require('path');
+
 
 
 
 
 // Set view engine to pug 
 app.set('view engine', 'pug');
-app.set('views', path.join(__dirname,'views'));
+// app.set('views', path.join(__dirname,'views'));
 
 
 //Serve static files
 // app.use('/static', express.static(path.join(__dirname, 'static')));
-app.use(express.static('public'));
-app.use(express.static('images'));
+app.use('/static',express.static('public'));
 
 //routes
 //index
@@ -29,15 +28,6 @@ app.get('/about', (req, res) => {
 });
 
 //projects 
-// app.get('/project/:id', (req, res, next) => {
-//     const projectId= req.params.id;
-//     const project = data.projects.find(p => p.id == projectId);
-//     if(project) {
-//         res.render('project', {project});
-//     } else {
-//         res.status(404).send('Project not found');
-//     }
-// });
 
 app.get('/project/:id', (req, res,next) => {
     const projectId = req.params.id;

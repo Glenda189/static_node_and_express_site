@@ -7,7 +7,7 @@
         "technologies":["HTML", "CSS", "Javascript"],
         "live_link":"",
         "github_link":"https://github.com/Glenda189/random-quote-generator",
-        "image_urls":["/images/Random1.jpg","/images/Random2.jpg", "/images/Random3.jpg"]
+        "image_urls":["/static/images/Random1.jpg","/static/images/Random2.jpg", "/static/images/Random3.jpg"]
         },
         {
         "id": 1,
@@ -16,7 +16,7 @@
         "technologies":["HTML", "CSS", "Javascript"],
         "live_link":"",
         "github_link":"https://github.com/Glenda189/Data-Pagination_Filtering",
-        "image_urls":["/images/pagination1.jpg","/images/pagination2.jpg", "/images/pagination3.jpg"]   
+        "image_urls":["/static/images/pagination1.jpg","/static/images/pagination2.jpg", "/static/images/pagination3.jpg"]   
         },
         {
         "id": 2,
@@ -25,7 +25,7 @@
         "technologies":["HTML", "CSS", "Javascript"],
         "live_link":"",
         "github_link":"https://github.com/Glenda189/Interactive-form",
-        "image_urls":["/images/form1.jpg","/images/form2.jpg", "/images/form3.jpg"]   
+        "image_urls":["/static/images/form1.jpg","/static/images/form2.jpg", "/static/images/form3.jpg"]   
         },
         {
         "id": 3,
@@ -34,7 +34,7 @@
         "technologies":["HTML", "CSS", "Object-Oriented Javascript"],
         "live_link":"",
         "github_link":"https://github.com/Glenda189/OOP-Game",
-        "image_urls":["/images/game1.jpg","/images/game2.jpg", "/images/game3.jpg"] 
+        "image_urls":["/static/images/game1.jpg","/static/images/game2.jpg", "/static/images/game3.jpg"] 
         },
         {
         "id": 4,
@@ -43,7 +43,7 @@
         "technologies":["HTML", "CSS", "Javascript"],
         "live_link":"",
         "github_link":"https://github.com/Glenda189/Public-Api-Requests",
-        "image_urls":["/images/dir1.jpg","/images/dir2.jpg", "/images/dir3.jpg"]     
+        "image_urls":["/static/images/dir1.jpg","/static/images/dir2.jpg", "/static/images/dir3.jpg"]     
         }
      ]
     }
