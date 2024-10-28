@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel='stylesheet', href='css/normalize.css')
+    link(rel='stylesheet', href='css/styles.css')
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='/images/profilepic.jpg', alt='picture of woman with black hair wearing glasses, white shirt and brown blazer')
+        .dev-intro-box
+
+          //- Replace with your name
+          h5 Glenda Chicas
+
+          //- Replace with description of who you are, what you do, and why you are so awesome
+          p Hi! My name is Glenda, I am from the Bay Area, CA. When I'm not working, I can be found on a walk near the beach or trying out a local coffee shop. 
+
+          //- Add path from your '/about' route handler to the href below
+          a(href='/about') Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+          //- Replace with your name — this is for the mobile layout
+          span Glenda Chicas
+
+      block content
+
+  script(src='/static/js/script.js')
+  

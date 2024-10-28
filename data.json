@@ -1,0 +1,49 @@
+{
+    "projects":[
+        {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "A program that displays and randomly selects quotes each time the user clocks a button.",
+        "technologies":["HTML", "CSS", "Javascript"],
+        "live_link":"",
+        "github_link":"https://github.com/Glenda189/random-quote-generator",
+        "image_urls":["/images/Random1.jpg","/images/Random2.jpg", "/images/Random3.jpg"]
+        },
+        {
+        "id": 1,
+        "project_name": "Pagination and Content Filter",
+        "description": "Enhance a web page's usability by writing Javascript to divide a long list of items into dynamic pages",
+        "technologies":["HTML", "CSS", "Javascript"],
+        "live_link":"",
+        "github_link":"https://github.com/Glenda189/Data-Pagination_Filtering",
+        "image_urls":["/images/pagination1.jpg","/images/pagination2.jpg", "/images/pagination3.jpg"]   
+        },
+        {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Enhance a form so it's engaging, interactive and easy to use",
+        "technologies":["HTML", "CSS", "Javascript"],
+        "live_link":"",
+        "github_link":"https://github.com/Glenda189/Interactive-form",
+        "image_urls":["/images/form1.jpg","/images/form2.jpg", "/images/form3.jpg"]   
+        },
+        {
+        "id": 3,
+        "project_name": "Game Show App",
+        "description": "'Phrase Hunter guessing game' where the player guesses the phrase by selecting individual letters from an on-screen keyboard.",
+        "technologies":["HTML", "CSS", "Object-Oriented Javascript"],
+        "live_link":"",
+        "github_link":"https://github.com/Glenda189/OOP-Game",
+        "image_urls":["/images/game1.jpg","/images/game2.jpg", "/images/game3.jpg"] 
+        },
+        {
+        "id": 4,
+        "project_name": "Employee Directory",
+        "description": "Create an employee directory by communicating with API",
+        "technologies":["HTML", "CSS", "Javascript"],
+        "live_link":"",
+        "github_link":"https://github.com/Glenda189/Public-Api-Requests",
+        "image_urls":["/images/dir1.jpg","/images/dir2.jpg", "/images/dir3.jpg"]     
+        }
+     ]
+    }
