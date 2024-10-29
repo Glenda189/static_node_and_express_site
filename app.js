@@ -3,17 +3,10 @@ const data = require('./data.json');
 const app = express();
 const port = 3000;
 
-
-
-
-
 // Set view engine to pug 
 app.set('view engine', 'pug');
-// app.set('views', path.join(__dirname,'views'));
-
 
 //Serve static files
-// app.use('/static', express.static(path.join(__dirname, 'static')));
 app.use('/static',express.static('public'));
 
 //routes
@@ -28,7 +21,6 @@ app.get('/about', (req, res) => {
 });
 
 //projects 
-
 app.get('/project/:id', (req, res,next) => {
     const projectId = req.params.id;
     const project = data.projects[projectId];
