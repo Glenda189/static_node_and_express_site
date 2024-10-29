@@ -26,9 +26,9 @@ block content
 
         //- Dynamically add the links for each project 
         if project.live_link
-          a.btn-link(href=project.live_link) Live Demo
+          a.btn-link(href=project.live_link target="_blank") Live Demo
         if project.github_link
-          a.btn-link(href= project.github_link) GitHub Repo
+          a.btn-link(href= project.github_link target="_blank") GitHub Repo
 
       //- Dynamically add images to projects 
       .project-img-box.box

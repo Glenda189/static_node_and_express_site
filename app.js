@@ -33,17 +33,22 @@ app.get('/project/:id', (req, res,next) => {
 });
 
 //404 Handler 
-app.use((req, res) => {
-    const error = new Error('Not Found');
-    error.status = 404;
-    console.error(error.message);
-    res.status(404).render('404', {error});
+app.use((req, res, next) => {
+    const err = new Error('Page Not Found');
+    err.status = 404;
+    next(err);
+    // res.status(404).render('404', {error});
 });
 
 //Global error handler 
 app.use((err, req, res, next ) => {
-    console.error(err.message);
-    res.status(err.status || 500).send('Internal Server Error');
+    res.status(err.status || 500);
+    if (err.status === 400) {
+        res.render('page-not-found', { error:err });
+    } else {
+        res.render('error', {error:err});
+    }
+    // res.status(err.status || 500).send('Internal Server Error');
 });
 
 // Start Server 

@@ -227,11 +227,11 @@ nav a span {
   padding: 40px 50px 30px;
 }
 
-.portfolio-intro h1 {
+/* .portfolio-intro h1 {
   font-size: 1.5rem;
   color: #0a0a0a;
   margin: 0 auto 8px;
-}
+} */
 
 .portfolio-intro p {
   text-rendering: optimizeLegibility;
@@ -288,7 +288,7 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
-.btn-link {
+/* .btn-link {
   display: block;
   text-align: center;
   color: #fefefe;
@@ -298,7 +298,7 @@ nav a span {
   padding: 0.85em 1em;
   background-color: #333;
   border: 1px solid transparent;
-}
+} */
 
 
 /* 
@@ -361,4 +361,36 @@ nav a span {
   .inner-wrapper {
     max-width: 1200px;
   }
+}
+
+/* changes */
+
+/* button background color  */
+.btn-link {
+  display: block;
+  text-align: center;
+  color: #fefefe;
+  width: 100%;
+  max-width: 255px;
+  margin: auto 0 5px 0;
+  padding: 0.85em 1em;
+  background-color:#2596be;
+  border: 1px solid transparent;
+}
+
+/* sidebar learn more text */
+.sidebar a {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #6ccce2;
+}
+
+/* font size and color */
+.portfolio-intro h1 {
+  font-size: 2.5rem;
+  color:#9de0e6;
+  margin: 0 auto 8px;
 }
